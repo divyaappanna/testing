@@ -1,8 +1,6 @@
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print('Hi from github')  # Press Ctrl+F8 to toggle the breakpoint.
-
+def inc(x):
+    return x + 1
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi()
+    assert inc(3) == 5
